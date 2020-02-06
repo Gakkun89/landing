@@ -1,0 +1,90 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('components/button.css');
+@import url('components/cards.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-size: cover;
+}
+
+.banner h1{
+  font-size: 48px;
+  color: white;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.banner-tagline p{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(255,255,255,1);
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.banner-tagline h1{
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 16px;
+}
+
+.footer {
+  /*background: linear-gradient(rgb(255,255,255),rgb(15,15,15));*/
+  height: 250px;
+  background: rgb(0,0,0);
+background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 44%, rgba(255,255,255,1) 100%);
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials ul{
+  margin: 0;
+}
+
+.socials li{
+  color: #fc7a48;
+  list-style: none;
+  font-size: 32px;
+  margin: 16px;
+  margin-top: 64px;
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.socials li:hover{
+/*  color: rgb(25,25,25);*/
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.4);
+  color: #222;
+}

@@ -61,7 +61,8 @@ a {
   /*background: linear-gradient(rgb(255,255,255),rgb(15,15,15));*/
   height: 125px;
   background: rgb(0,0,0);
-background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 44%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 44%, rgba(255,255,255,1) 100%);
+
 }
 
 .socials {
@@ -72,13 +73,15 @@ background: linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(82,82,82,1) 44%, rgba
 
 .socials ul{
   margin: 0;
+  margin-bottom: 0;
 }
 
 .socials li{
   color: #fc7a48;
   list-style: none;
   font-size: 32px;
-  margin: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
   margin-top: 64px;
   text-shadow: 1px 2px rgba(0, 0, 0, 0.4);
 }
